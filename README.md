@@ -1,4 +1,4 @@
 Friends-of-Brown-County
 =======================
 
-Friends of Brown County Website
+These are the master files for Friends of Brown County Veterans.
