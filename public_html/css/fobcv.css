@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: none;
+	background-image: url('/imgs/bkg.jpg');
+	font-family: Verdana;
+	font-size: 0.70em;
+}
+div#footer{
+	clear: both;
+	font-size: 85%;
+	width: 989px;
+	height: 100px;
+	background-image: url('/imgs/footer/footer.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin: auto;
+	border-top: double medium #fff;
+	color: #fff;
+	padding-top: 5px;
+}
+div#footer a{
+	text-decoration: none;
+	color: #fff;
+}
+div#footer a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+div#footer a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+div#hGalleria{
+	width: 730px;
+	height: 300px;
+	display: block;
+	overflow: hidden;
+	margin: auto;
+}
+div#header{
+	width: 989px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	background-image: url('/imgs/header.jpg');
+	border: solid thin #000;
+	border-radius: 15px;
+	box-shadow: -5px 5px 2px #000;
+}
+div#left{
+	width: 230px;
+	float: left;
+	min-height: 600px;
+	background-color: rgba(0,33,71,0.75);
+	opacity: .5;
+	border: solid thin #000;
+	border-radius: 20px;
+	box-shadow: -5px 5px 5px #000;
+	padding-bottom: 20px;
+}
+div#leftContent{
+	width: 200px;
+	display: block;
+	min-height: 200px;
+	background-color: rgb(0,38,99);
+	color: white;
+	padding: 10px;
+	border: solid thin #000;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 5px;
+	box-shadow: -5px 5px 5px #000;
+}
+div#main{
+	width: 730px;
+	float: right;
+	border: solid thin black;
+	border-radius: 10px;
+	min-height: 600px;
+	background-color: #d1d4d3;
+	margin-bottom: 10px;
+	box-shadow: -5px 5px 5px rgba(0,33,71,0.75);
+	padding: 10px;
+}
+div#mainLeft{
+	width: 480px;
+	float: left;
+	min-height: 600px;
+	padding-right: 10px;
+}
+div#mainRight{
+	width: 235px;
+	float: right;
+	height: 500px;
+	background-image: url('/imgs/monument2.jpg');
+	border-radius: 10px;
+	box-shadow: -5px 5px 5px #888;
+}
+div#page{
+	width: 989px;
+	margin: auto;
+}
+nav#mainMenu{
+	width: 200px;
+	display: block;
+	min-height: 200px;
+	background-color: #001ca8;
+	color: white;
+	padding: 10px;
+	border: solid thin #000;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 5px;
+	box-shadow: -5px 5px 5px #000;
+}
+nav#mainMenu ul{
+	list-style-type: none;
+	padding: 5px;
+	margin: 0px;
+}
+nav#mainMenu li {
+
+}
+nav#mainMenu ul a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	padding: 2px;
+	background-image: none;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+nav#mainMenu ul a:hover{
+	text-decoration: underline;
+	background-image: url('/imgs/menuFlag.png');
+	background-repeat: no-repeat;
+}
+td{
+	vertical-align: top;
+}
+#s3slider {
+    width: 730px; /* important to be same as image width */
+    height: 300px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+    margin: auto;
+    left: -22px;
+    top: -10px;
+}
+ 
+#s3sliderContent {
+    width: 730px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 374px;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+.clear {
+    clear: both;
+}
+ div#s3slider .s3top {
+	top: 0;
+	left: 0;
+}
+div#s3slider .s3bottom {
+	bottom: 0;
+	left: 0;
+}
+div#s3slider .s3left {
+	top: 0;
+	left: 30px;
+	width: 110px !important;
+	height: 300px;
+}
+div#s3slider .s3right {
+	right: 0;
+	bottom: 0;
+	width: 110px !important;
+	height: 300px;
+}
+div#s3slider .s3offset {
+	left: 30px;
+}
+div#s3slider .s3offsetRight {
+	right: -30px;
+}
